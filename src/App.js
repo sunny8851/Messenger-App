@@ -12,7 +12,7 @@ function App() {
   const [input,setinput]=useState("")
   const [message,setmessage]=useState([]) 
 
-  console.log(message)
+  // console.log(message)
 
   const[userName,setname]=useState("")
   //for displaying data which is already present in database

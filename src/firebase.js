@@ -19,16 +19,16 @@
 
 // npm install -g firebase-tools
 import firebase from "firebase";
-const firebaseApp =firebase.initializeApp( {
-    apiKey: "AIzaSyChS931Yg6K7wD9icUXNjnmM0EnH8FLC7E",
-  authDomain: "messenger-clone-b617b.firebaseapp.com",
-  projectId: "messenger-clone-b617b",
-  storageBucket: "messenger-clone-b617b.appspot.com",
-  messagingSenderId: "1266096844",
-  appId: "1:1266096844:web:a887311146b76623fe4069",
-  measurementId: "${config.measurementId}"
+const firebaseApp = firebase.initializeApp({
+  apiKey: "AIzaSyC9qwz0AIEjuOKv4Il2yNM2qML_gYerEEE",
+  authDomain: "messenger-bfb2b.firebaseapp.com",
+  projectId: "messenger-bfb2b",
+  storageBucket: "messenger-bfb2b.appspot.com",
+  messagingSenderId: "297080311462",
+  appId: "1:297080311462:web:911261b15cf563b7fe6e67",
+  measurementId: "G-6KR93CN8YF",
 });
-const db=firebaseApp.firestore();
+const db = firebaseApp.firestore();
 export default db;
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
